@@ -10,19 +10,19 @@
         </div>
         <div id="heroContent__image">
           <transition name="fadeOne">
-            <img src="/img/hero/1.png" v-show="one">
+            <img src="/img/hero/1.png" @load="one = true" v-show="one">
           </transition>
           <transition name="fadeTwo">
-            <img src="/img/hero/2.png" v-show="two">
+            <img src="/img/hero/2.png" @load="two = true" v-show="two">
           </transition>
           <transition name="fadeThree">
-            <img src="/img/hero/3.png" v-show="three">
+            <img src="/img/hero/3.png" @load="three = true" v-show="three">
           </transition>
           <transition name="fadeFour">
-            <img src="/img/hero/4.png" v-show="four">
+            <img src="/img/hero/4.png" @load="four = true" v-show="four">
           </transition>
           <transition name="fadeFive">
-            <img src="/img/hero/5.png" v-show="five">
+            <img src="/img/hero/5.png" @load="five = true" v-show="five">
           </transition>
         </div>
         <div id="vosbContent">
@@ -54,11 +54,11 @@ export default {
     }
   },
   mounted() {
-    this.one = true
-    this.two = true
-    this.three = true
-    this.four = true
-    this.five = true
+    // this.one = true
+    // this.two = true
+    // this.three = true
+    // this.four = true
+    // this.five = true
   },
    methods: {
   }

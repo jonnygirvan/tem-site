@@ -47,7 +47,7 @@ dd {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #1f2225;
+  color: #4c5b69;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -59,7 +59,7 @@ h1,h2,h3,h4,h5,h6 {
   top: 0;
   left: 0;
   width: 100%;
-  /* background: red; */
+  background: rgba(12, 13, 61, 0.8);
   z-index: 99;
   padding: 0 24px;
 }
@@ -87,9 +87,13 @@ h1,h2,h3,h4,h5,h6 {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 99;
+  z-index: 100;
   height: 28px;
   margin: 12px 24px;
+}
+
+p {
+  line-height: 1.5;
 }
 
 .p--large {

@@ -58,6 +58,7 @@ export default {
   }
 
   .serviceItem__text h3 {
+    position: relative;
     margin-bottom: 20px;
   }
 

@@ -59,9 +59,10 @@ h1,h2,h3,h4,h5,h6 {
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(12, 13, 61, 0.8);
+  background: rgba(12, 13, 61, 1);
   z-index: 99;
   padding: 0 24px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
 }
 
 #nav a {

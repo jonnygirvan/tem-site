@@ -91,7 +91,7 @@ export default {
   .softwareContainer, .certContainer {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 24px;
+    margin-top: 48px;
   }
 
   .software, .cert {

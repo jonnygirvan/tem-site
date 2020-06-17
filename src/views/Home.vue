@@ -89,6 +89,7 @@
       </div>
     </section>
     <certs></certs>
+    <contact></contact>
   </div>
 </template>
 
@@ -96,12 +97,14 @@
 // @ is an alias to /src
 import Service from '@/components/Service'
 import Certs from '@/components/Certs'
+import Contact from '@/components/Contact'
 
 export default {
   name: 'Home',
   components: {
     Service,
-    Certs
+    Certs,
+    Contact
   },
   data: function() {
     return {

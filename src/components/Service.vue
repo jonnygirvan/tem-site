@@ -1,11 +1,11 @@
 <template>
-  <article class="serviceItem">
+  <router-link tag="article" :to="'services/'+slug" class="serviceItem">
     <img v-bind:src="image">
     <div class="serviceItem__text">
       <h3>{{title}}</h3>
       <slot></slot>
     </div>
-  </article>
+  </router-link>
 </template>
 
 <script>
@@ -13,6 +13,7 @@ export default {
   name: 'Service',
   props: {
     title: String,
+    slug: String,
     image: String
   }
 }

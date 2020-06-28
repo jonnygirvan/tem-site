@@ -17,9 +17,9 @@
             <img src="/img/software/cimatron.png" alt="Cimatron icon">
             <p>Cimatron</p>
           </a>
-          <a href="https://bobcad.com/" target="_blank" class="software">
-            <img src="/img/software/bobcad.png" alt="BobCAD icon">
-            <p>BobCAD</p>
+          <a href="https://www.mastercam.com/" target="_blank" class="software">
+            <img src="/img/software/mastercam.png" alt="Mastercam icon">
+            <p>Mastercam</p>
           </a>
         </div>
       </div>

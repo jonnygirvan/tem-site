@@ -2,7 +2,7 @@
   <div id="app">
     <img src="/img/logo.svg" alt="TEM Logo" id="logo">
     <div id="nav">
-      <router-link to="/">Home</router-link>
+      <router-link to="/">Our Services</router-link>
       <router-link to="/about">Our Facilities</router-link>
       <router-link to="/about">About Us</router-link>
       <router-link to="/about">Contact Us</router-link>

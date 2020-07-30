@@ -86,7 +86,9 @@ export default {
     max-width: 1200px;
     margin: auto;
     color: #fff;
+    padding: 0 24px;
   }
+
 
   .contactInner h2 {
     position: relative;
@@ -158,5 +160,28 @@ export default {
     margin-right: 12px;
   }
 
+  @media screen and (max-width:1050px) {
+    #contactContainer {
+      background-size: cover;
+    }
+  }
+
+  @media screen and (max-width:660px) {
+    .contactContent {
+      flex-direction: column;
+    }
+
+    #contact input, #contact textarea {
+      width: 100%;
+    }
+
+    #contact {
+      margin-bottom: 2rem;
+    }
+
+    .contactInfo {
+      padding-left: 0;
+    }
+  }
  
 </style>

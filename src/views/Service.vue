@@ -176,7 +176,7 @@ export default {
  }
 
 #serviceList {
-  flex: 0 0 320px;
+  flex: 0 0 280px;
 }
 
 </style>

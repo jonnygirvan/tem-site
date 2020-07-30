@@ -46,7 +46,6 @@ export default {
 <style>
   #serviceList {
     list-style: none;
-    background: #e2eaf5;
     margin: 0;
     padding: 24px 0;
     text-align: left;

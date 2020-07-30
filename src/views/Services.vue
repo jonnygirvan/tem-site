@@ -12,7 +12,7 @@
         </div>
 
         <div class="servicesColumn servicesColumn--shift">
-          <service title="Laser Cutting" slug="laser-cutting" image="/img/services/laser.svg">
+          <service title="Laser Cutting" slug="laser" image="/img/services/laser.svg">
             <p>For more than three decades, we have operated multi-axis laser technology for the most difficult aerospace, defense and power generation applications. Over the years we have developed hardware and software features which have become standards in the industry.</p>
             <a href="#" class="learnMore">Learn More</a>
           </service>

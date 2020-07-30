@@ -10,20 +10,21 @@
         </div>
         <div id="heroContent__image">
           <transition name="fadeOne">
-            <img src="/img/hero/1.png" @load="one = true" v-show="one">
+            <img src="/img/hero/1.png" @load="one = true" v-show="one" class="responsiveItems">
           </transition>
           <transition name="fadeTwo">
-            <img src="/img/hero/2.png" @load="two = true" v-show="two">
+            <img src="/img/hero/2.png" @load="two = true" v-show="two" class="responsiveItems">
           </transition>
           <transition name="fadeThree">
-            <img src="/img/hero/3.png" @load="three = true" v-show="three">
+            <img src="/img/hero/3.png" @load="three = true" v-show="three" class="responsiveItems">
           </transition>
           <transition name="fadeFour">
-            <img src="/img/hero/4.png" @load="four = true" v-show="four">
+            <img src="/img/hero/4.png" @load="four = true" v-show="four" class="responsiveItems">
           </transition>
           <transition name="fadeFive">
-            <img src="/img/hero/5.png" @load="five = true" v-show="five">
+            <img src="/img/hero/5.png" @load="five = true" v-show="five" class="responsiveItems">
           </transition>
+          <img src="/img/hero/comp.png" alt="CNC Items" id="responsiveComp">
         </div>
         <div id="vosbContent">
           <p>TEM Inc. is proud to be a Veteran Owned Small Business</p>
@@ -195,6 +196,10 @@ export default {
     border-color: #fff;
   }
 
+  #responsiveComp {
+    display: none;
+  }
+
   .fadeOne-enter-active {
     transition: opacity 1200ms ease-out 0.1s, transform 1.5s ease-out;
   }
@@ -321,6 +326,7 @@ export default {
     padding: 100px 48px 60px;
     display: flex;
     position: relative;
+    text-align: left;
     flex-wrap: wrap;
   }
 
@@ -341,5 +347,123 @@ export default {
     padding-top: 48px;
   }
 
+  @media screen and (max-width: 1300px) {
+    .singleServiceImage {
+      flex: 0 0 300px!important;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    #servicesContainer {
+      padding: 100px 24px 60px;
+    }
+
+    .servicesColumn {
+      flex: 0 0 calc(33% - 72px);
+    }
+
+    .certsInner {
+      padding: 0 24px;
+    }
+  }
+
+  @media screen and (max-width: 1140px) {
+    #servicesIntro__image {
+      flex: 0 0 40%
+    }
+
+    #servicesIntro__image img {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    .servicesColumn {
+      flex: 0 0 calc(50% - 72px);
+    }
+
+    #serviceList {
+      display: none;
+    }
+
+    .singleServiceWrapper {
+      flex-direction: column-reverse;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    #heroContent__image {
+      align-items: flex-start;
+      padding-top: 80px;
+    }
+
+    .certsInner {
+      flex-direction: column;
+    }
+
+    .qualityContainer {
+      padding-left: 0;
+      padding-top: 48px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #hero {
+      height: auto;
+    }
+    #heroContent {
+      flex-direction: column;
+    }
+    #heroContent__text {
+      padding: 12px 24px;
+    }
+
+    #heroContent__image {
+      padding-top: 0;
+      padding-bottom: 72px;
+    }
+
+    .responsiveItems {
+      display: none!important;
+    }
+
+    #responsiveComp {
+      display: inline;
+      position: relative!important;
+    }
+
+    #heroContent__text h1 {
+    font-size: 36px;
+    line-height: 44px;
+    }
+
+    #heroContent__text .p--large {
+      font-size: 18px;
+    }
+
+    #exploreButton {
+      margin-top: 12px;
+    }
+
+    #vosbContent p {
+      text-align: left;
+    }
+
+    #services {
+      padding: 52px 24px 0;
+    }
+    #servicesIntro__image {
+      display: none;
+    }
+
+    .servicesColumn {
+      flex: 0 0 100%;
+      margin: 0;
+    }
+
+    .serviceItem {
+      margin-bottom: 24px!important;
+    }
+  }
 
 </style>

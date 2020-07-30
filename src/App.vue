@@ -3,9 +3,8 @@
     <img src="/img/logo.svg" alt="TEM Logo" id="logo">
     <div id="nav">
       <router-link to="/">Our Services</router-link>
-      <router-link to="/about">Our Facilities</router-link>
-      <router-link to="/about">About Us</router-link>
-      <router-link to="/about">Contact Us</router-link>
+      <router-link to="/facilities">Our Facilities</router-link>
+      <a href="#contactContainer">Contact Us</a>
     </div>
     <router-view/>
   </div>
@@ -101,5 +100,22 @@ p {
   font-size: 24px;
   margin: 16px 0;
   line-height: 32px;
+}
+
+@media screen and (max-width: 700px) {
+  #nav {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #logo {
+    top: 6px;
+    height: 18px;
+  }
+  #nav a {
+    font-size: 16px;
+    padding: 16px 8px;
+  }
 }
 </style>

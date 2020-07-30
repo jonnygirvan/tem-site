@@ -21,6 +21,9 @@
     <div class="block"></div>
     <div class="block"></div>
     </div>
+    <div class="backBar">
+      <router-link to="/#servicesContainer">View other servies</router-link>
+    </div>
   </article>
 </template>
 
@@ -80,6 +83,30 @@ export default {
   .singleServiceContent h3 {
     color: #4c5b69ab;
     margin: 48px 0 24px;
+  }
+
+  .backBar {
+    position: fixed;
+    background: rgb(242, 97, 1);
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    color: #fff;
+    display: none;
+  }
+
+  .backBar a {
+    padding: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+  }
+
+  @media screen and (max-width: 960px) {
+    .backBar {
+      display: block;
+    }
   }
 
   .singleServiceImage {

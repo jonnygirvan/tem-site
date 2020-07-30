@@ -401,6 +401,10 @@ export default {
       flex-direction: column;
     }
 
+    .softwareContainer {
+      padding-right: 0;
+    }
+
     .qualityContainer {
       padding-left: 0;
       padding-top: 48px;
@@ -413,6 +417,7 @@ export default {
     }
     #heroContent {
       flex-direction: column;
+      padding-top: 90px;
     }
     #heroContent__text {
       padding: 12px 24px;

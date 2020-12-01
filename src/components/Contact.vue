@@ -3,7 +3,7 @@
     <div class="contactInner">
       <h2>Contact Us</h2>
       <div class="contactContent">
-        <form id="contact">
+        <form id="contact" data-netlify="true" name="contact">
           <label for="name">
             Name
             <input type="text" name="name" id="name">

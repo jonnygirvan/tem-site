@@ -36,7 +36,17 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
+  // scrollBehavior (to) {
+  //   if (to.hash) {
+  //     return {
+  //       selector: to.hash
+  //       // , offset: { x: 0, y: 10 }
+  //     }
+  //   } else {
+  //     return { x: 0, y: 0 }
+  //   }
+  // }
 })
 
 export default router

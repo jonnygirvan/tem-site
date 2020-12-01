@@ -3,7 +3,8 @@
     <div class="contactInner">
       <h2>Contact Us</h2>
       <div class="contactContent">
-        <form id="contact" data-netlify="true" name="contact" method="POST">
+        <form id="contact" data-netlify="true" name="contact" method="post" data-netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact" />
           <label for="name">
             Name
             <input type="text" name="name" id="name">

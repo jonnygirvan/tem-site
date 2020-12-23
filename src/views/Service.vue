@@ -114,17 +114,16 @@
      <SingleService title="Defense Parts" image="/img/services/defense.jpg" v-if="$route.params.service == 'defense-parts'">
       <p>Over the past 40 years, TEM INC. has developed a solid reputation as a professional and reliable industry leader in defense machining – a recognition that was built upon ensuring that quality, precision and confidentiality were achieved with every government machining contract we undertake.</p>
       <h3>Benefits of TEM INC. defense machining services</h3>
-      <p>We understand that companies place demanding requirements on government manufacturers to produce their precision defense parts. As an ISO 9001:2008 and AS9100 certified manufacturer, we are more than capable of achieving superior results. We follow strict adherences to defense industry standards, and because all parts are produced onsite at our 26,000 sq. ft. facility in Buxton, Maine, we can ensure that quality control is maintained throughout the entire manufacturing process.</p>
-      <p>We also have the in-house defense machining capabilities to achieve tight tolerances and can work with any material, including titanium and other high strength alloys. While we have manufactured a range of gun component parts for combat weapons, a short list includes:</p>
-      <ul>
-        <li>Single rifles</li>
-        <li>Grenade launchers</li>
-        <li>Automatic weapons</li>
-        <li>Tactical magazines</li>
-        <li>Gun mounts</li>
-      </ul>
+      <p>We understand that companies place demanding requirements on government manufacturers to produce their precision defense parts. As an ISO 9001:2008, ITAR approved, and AS9100 certified manufacturer, we are more than capable of achieving superior results. We follow strict adherences to defense industry standards, and because all parts are produced onsite at our 26,000 sq. ft. facility in Buxton, Maine, we can ensure that quality control is maintained throughout the entire manufacturing process.</p>
       <h3>Proud to provide government and aerospace contract machining services</h3>
-      <p>We strive to continually improve our defense machining processes by investing in new equipment and technology, as necessary, to ensure our manufacturing is cutting-edge. Additionally, we provide our staff of engineers and machinists with the resources they need so our customers receive an exceptional level of service with every government machine work contract-whether we are providing gun component machining of a simple part or a complex part for a combat weapon.</p>
+      <p>We strive to continually improve our defense machining processes by investing in new equipment and technology, as necessary, to ensure our manufacturing is cutting-edge. Additionally, we provide our staff of engineers and machinists with the resources they need so our customers receive an exceptional level of service with every government machine work contract. We have provided support on the following projects:</p>
+      <ul>
+        <li>CH-53K Manufactured Parts</li>
+        <li>Grenade launchers</li>
+        <li>H-60 Helicopter Spare Parts</li>
+        <li>Blades & Vanes</li>
+        <li>Missile Components</li>
+      </ul>
      </SingleService>
 
      <SingleService title="Turbine Manufacturing" image="/img/services/turbine.jpg" v-if="$route.params.service == 'turbines'">

@@ -40,7 +40,7 @@
           <p>TEM specializes in long and short run production, prototyping and new product introduction. From design, to production, to quality, TEM is dedicated to customer satisfaction.</p>
         </div>
         <div id="servicesIntro__image">
-          <img src="/img/smallparts.png" alt="CNC Parts">
+          <img src="/img/smallparts.png" alt="Boesing 787, warships, and turbine">
         </div>
       </div>
     </section>
@@ -315,10 +315,14 @@ export default {
 
   #servicesIntro__image {
     position: relative;
-    padding: 24px;
-    background: linear-gradient(111deg, #dbd2f5, #cae0ff);
+    /* padding: 24px; */
+    /* background: linear-gradient(111deg, #dbd2f5, #cae0ff); */
     display: flex;
     align-items: center;
+    /* border-radius: 3px; */
+  }
+
+  #servicesIntro__image img {
     border-radius: 3px;
   }
 

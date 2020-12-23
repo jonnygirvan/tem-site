@@ -25,7 +25,8 @@
             <li>2 x S1-2 HP Bridgeports - 9"x42" Tables with A.G.E - Prototraks</li>
             <li>1 x S1-2 Bridgeport - 9"x42" Tables</li>
             <li>1 x J-Head Bridgeport Readouts - 9"48" Tables Two with Readouts</li>
-            <li>1 x Comet Vard-drive 10"x50" Table</li>
+            <li>1 x Comet Vari-drive 10” X 50 “ Table</li>
+            <li>1 x CNC Haas VF-4SS 20” X 50” VMC</li>
           </ul>
         </div>
         <div class="facilitiesItem">
@@ -90,7 +91,7 @@
         <div class="facilitiesItem">
           <h3>Horizontal Milling Equipment</h3>
           <ul>
-            <li>1 x Okuma & Howa Millace 40H 2-Pallet</li>
+            <li>1 x Okuma & Howa Millac 40H 2-Pallet</li>
             <li>1 x Haas HS2 35"x38"x36" 2-Pallet</li>
             <li>1 x Okuma MA-500 2-Pallet</li>
           </ul>
@@ -146,7 +147,7 @@
             <li>1 x DMG Mori NLX 2500SY Twin SPD Y Axis 16"x28"</li>
             <li>1 x Mori Seiki ZL-45B Twin Turret</li>
             <li>1 x Swiss Nexturn</li>
-            <li>1 x Akuma V100R 36" VTL</li>
+            <li>1 x Okuma V100R 42" VTL</li>
             <li>1 x Republic Lathe 16"x40"</li>
             <li>1 x Mori Seiki SL-25M 14"x20"</li>
             <li>1 x Haas HL4 10" Chuck CNC Lathe</li>

@@ -22,7 +22,7 @@
           Skilled machinists using the latest techniques and state-of-the-art CNC milling and turning machines including both 3-axis CNC milling and 4-axis CNC machining.
         </li>
         <li>
-          Quality control processes implemented throughout the entire CNC lathe and milling manufacturing process as governed by ISO 9001:2008 and AS9100 certification standards.
+          Quality control processes implemented throughout the entire CNC lathe and milling manufacturing process as governed by ISO 9001 and AS9100 certification standards.
         </li>
       </ul>
       <h3>Reliable, precision CNC milling and turning machine shop</h3>
@@ -48,7 +48,7 @@
       <p>If you’re looking for a premier resource for fabrication services, look no further, TEM INC. can provide you with superior precision fabrication.</p>
       <h3>Over 30 years experience in metal fabrication parts</h3>
       <p>We have over 30 years of experience in metal fabrication and have serviced both small and large companies throughout the United States. Our stellar reputation is based on our ability to continually produce quality products and provide on-time delivery for each fabrication project we undertake.</p>
-      <p>As a certified AS9100 and ISO 9001:2008 company, we employ rigorous quality standards and utilize state-of-the-art CNC machines for all our custom sheet metal fabrications. We ensure that our machinists are skilled and trained so they can manufacture a part to meet customers’ exact specifications. Combined with our knowledgeable engineering department, TEM INC. promises to provide customers with efficient, cost-effective management of their project.</p>
+      <p>As a certified AS9100 and ISO 9001 company, we employ rigorous quality standards and utilize state-of-the-art CNC machines for all our custom sheet metal fabrications. We ensure that our machinists are skilled and trained so they can manufacture a part to meet customers’ exact specifications. Combined with our knowledgeable engineering department, TEM INC. promises to provide customers with efficient, cost-effective management of their project.</p>
       <p>Custom fabrication projects we’ve completed include:</p>
       <ul>
         <li>Weld frames for special applications for machinery</li>
@@ -85,7 +85,7 @@
       <p>TEM INC. is experienced in providing exceptional wire EDM machining and offers complete in-house services to those in the defense, aerospace, medical and communications industries. Whether you need to redesign a precision die part or are searching for the most cost-effective method to produce a prototype gun part, we have both the skilled staff and state-of-the-art equipment to turn your ideas into reality-efficiently and cost-effectively.</p>
       <h3>Electrical Discharge Machining, Sinker EDM</h3>
       <p>Our engineering department utilizes CAD/CAM to design precision parts before it moves onto the production floor where our skilled machinists have access to the latest equipment used for electrical discharge machining or Sinker EDM. Our facility is capable of manufacturing products in a variety of conductive materials which include carbide, titanium and stainless steel.</p>
-      <p>We also maintain ISO 9001:2008 and AS9100 certifications and employ strict quality standards, so customers can be assured that we will achieve the most demanding product design requirements.</p>
+      <p>We also maintain ISO 9001 and AS9100 certifications and employ strict quality standards, so customers can be assured that we will achieve the most demanding product design requirements.</p>
       <h3>Is EDM machining the right process to manufacture your product?</h3>
       <p>Wire EDM (a common type of electrical discharge machining) is used to cut shapes through a part or assembly. The process uses a thin brass wire, which is guided by CNC machine arms, to supply an electrical current to machine electrically conductive materials. This method offers several advantages over conventional cutting methods and requires the use of highly accurate CNC machining equipment to process superior results.</p>
       <h3>The benefits of wire and vertical EDM</h3>
@@ -114,7 +114,7 @@
      <SingleService title="Defense Parts" image="/img/services/defense.jpg" v-if="$route.params.service == 'defense-parts'">
       <p>Over the past 40 years, TEM INC. has developed a solid reputation as a professional and reliable industry leader in defense machining – a recognition that was built upon ensuring that quality, precision and confidentiality were achieved with every government machining contract we undertake.</p>
       <h3>Benefits of TEM INC. defense machining services</h3>
-      <p>We understand that companies place demanding requirements on government manufacturers to produce their precision defense parts. As an ISO 9001:2008, ITAR approved, and AS9100 certified manufacturer, we are more than capable of achieving superior results. We follow strict adherences to defense industry standards, and because all parts are produced onsite at our 26,000 sq. ft. facility in Buxton, Maine, we can ensure that quality control is maintained throughout the entire manufacturing process.</p>
+      <p>We understand that companies place demanding requirements on government manufacturers to produce their precision defense parts. As an ISO 9001, ITAR approved, and AS9100 certified manufacturer, we are more than capable of achieving superior results. We follow strict adherences to defense industry standards, and because all parts are produced onsite at our 26,000 sq. ft. facility in Buxton, Maine, we can ensure that quality control is maintained throughout the entire manufacturing process.</p>
       <h3>Proud to provide government and aerospace contract machining services</h3>
       <p>We strive to continually improve our defense machining processes by investing in new equipment and technology, as necessary, to ensure our manufacturing is cutting-edge. Additionally, we provide our staff of engineers and machinists with the resources they need so our customers receive an exceptional level of service with every government machine work contract. We have provided support on the following projects:</p>
       <ul>
@@ -141,7 +141,7 @@
       <ul>
         <li>All turbine castings machining is completed onsite at our 26,000 sq. ft. facility equipped with state-of-the-machines involving casting, machining, painting and pressure testing.</li>
         <li>Staff of highly skilled engineers and machinists with access to all the technological resources necessary to deliver superior turbine manufacturing service.</li>
-        <li>Quality assurance procedures employed throughout the turbine castings manufacturing process, as we maintain both ISO 9001:2008 and AS9100 certifications and ensure strict adherence to customer specifications.</li>
+        <li>Quality assurance procedures employed throughout the turbine castings manufacturing process, as we maintain both ISO 9001 and AS9100 certifications and ensure strict adherence to customer specifications.</li>
         <li>Capability of working with all materials which include high strength alloys such as titanium and carbide.</li>
       </ul>
      </SingleService>
